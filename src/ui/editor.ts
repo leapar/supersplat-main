@@ -35,7 +35,7 @@ class EditorUI {
         // favicon
         const link = document.createElement('link');
         link.rel = 'icon';
-        link.href = logo;
+        link.href = "/favicon.ico";
         document.head.appendChild(link);
 
         // app

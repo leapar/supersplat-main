@@ -43,10 +43,10 @@ class Menu extends Container {
         });
 
         const iconDom = document.createElement('img');
-        iconDom.src = logoSvg;
+        iconDom.src = "/water3d/logo.png";
         iconDom.setAttribute('id', 'app-icon');
         iconDom.addEventListener('pointerdown', (event) => {
-            window.open('https://playcanvas.com', '_blank').focus();
+            window.open('https://3dman.cn', '_blank').focus();
         });
 
         const icon = new Element({
