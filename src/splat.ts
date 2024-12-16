@@ -86,7 +86,7 @@ class Splat extends Element {
         this.splatData = splatData;
         this.numSplats = splatData.numSplats;
         this.entity = splatResource.instantiate(materialOptions);
-
+        this.entity.setLocalEulerAngles(0, 0, -180);
         const instance = this.entity.gsplat.instance;
 
         // use custom render order distance calculation for splats
